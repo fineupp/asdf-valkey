@@ -41,9 +41,9 @@ untar_path() {
 
   if [ "$install_type" = "version" ]
   then
-    echo "$tmp_download_dir/${version}.tar.gz"
+    echo "$tmp_download_dir/valkey-${version}"
   else
-    echo "$tmp_download_dir/${version}.tar.gz"
+    echo "$tmp_download_dir/valkey-${version}"
   fi
 }
 
