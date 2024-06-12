@@ -41,9 +41,9 @@ untar_path() {
 
   if [ "$install_type" = "version" ]
   then
-    echo "$tmp_download_dir/${version}"
+    echo "$tmp_download_dir/${version}.tar.gz"
   else
-    echo "$tmp_download_dir/${version}"
+    echo "$tmp_download_dir/${version}.tar.gz"
   fi
 }
 
